@@ -1,0 +1,16 @@
+{
+  "name": "ari_calls",
+  "version": "1.0.0",
+  "description": "Outbound dialer using Asterisk ARI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tests/regression-call-summary.test.js"
+  },
+  "dependencies": {
+    "ari-client": "^2.2.0",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.15.1",
+    "uuid": "^9.0.1"
+  }
+}
